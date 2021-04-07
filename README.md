@@ -12,6 +12,14 @@ Contains:
 * [Seurat](https://github.com/satijalab/seurat)  
 * [CellChat](https://github.com/sqjin/CellChat)
 
+## Installation
+1. Install docker following these instructions
+https://docs.docker.com/install/
+
+2. Pull the latest image from DockerHub with
+```docker pull earmingol/singlecell-ccc```
+
+## Running the docker image
 This docker image can be run with the following command.  You should mount a local path so that your notebooks can be saved outside the Docker container.
 
 ```
