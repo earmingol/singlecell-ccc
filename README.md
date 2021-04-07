@@ -1,6 +1,6 @@
 # singlecell-ccc
 
-This is a Docker Image for running cell-cell communication analyses in jupyter notebooks:
+This is a Docker Image for running downstream single-cell RNA-seq analyses and evaluating cell-cell communication using jupyter notebooks.
 
 Contains:
 
