@@ -3,8 +3,6 @@
 ARG BASE_CONTAINER=jupyter/minimal-notebook
 FROM $BASE_CONTAINER
 
-# LABEL maintainer="HCA Latam Workshop 2021"
-
 USER root
 
 # R pre-requisites
