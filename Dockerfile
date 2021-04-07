@@ -64,7 +64,8 @@ RUN Rscript /root/packages.r
 # Install cell2cell
 USER $NB_UID
 RUN pip install cell2cell
-RUN conda install -c conda-forge ipywidgets \
+RUN conda install --quiet --yes \
+    'ipywidgets' \
     && \
     conda clean --all -f -y && \
     fix-permissions "${CONDA_DIR}" && \
