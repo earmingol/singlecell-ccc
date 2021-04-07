@@ -1,4 +1,4 @@
-# docker-hca-ccc
+# singlecell-ccc
 
 This is a Docker Image for running cell-cell communication analyses in jupyter notebooks:
 
