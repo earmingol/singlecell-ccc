@@ -61,3 +61,6 @@ USER root
 COPY packages.r /root/packages.r
 RUN Rscript /root/packages.r
 
+# Install cell2cell
+USER $NB_UID
+RUN pip install cell2cell
