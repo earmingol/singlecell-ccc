@@ -63,7 +63,7 @@ RUN Rscript /root/packages.r
 
 # Install cell2cell
 USER $NB_UID
-RUN pip install cell2cell
+RUN pip install cell2cell scanpy
 RUN conda install --quiet --yes \
     'ipywidgets' \
     && \
