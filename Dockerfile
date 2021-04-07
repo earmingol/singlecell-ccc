@@ -64,3 +64,9 @@ RUN Rscript /root/packages.r
 # Install cell2cell
 USER $NB_UID
 RUN pip install cell2cell
+RUN conda install -c conda-forge ipywidgets \
+    && \
+    conda clean --all -f -y && \
+    fix-permissions "${CONDA_DIR}" && \
+    fix-permissions "/home/${NB_USER}"
+RUN jupyter nbextension enable --py widgetsnbextension
