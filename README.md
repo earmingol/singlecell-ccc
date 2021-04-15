@@ -9,7 +9,9 @@ Contains:
 * [scanpy](https://github.com/theislab/scanpy)  
 * [cell2cell](https://github.com/earmingol/cell2cell)
 * R 4.0.3
-* [Seurat](https://github.com/satijalab/seurat)  
+* [Seurat](https://github.com/satijalab/seurat)
+* [SeuratDisk](https://github.com/mojaveazure/seurat-disk)
+* [Harmony](https://github.com/immunogenomics/harmony)  
 * [CellChat](https://github.com/sqjin/CellChat)
 
 ## Installation
