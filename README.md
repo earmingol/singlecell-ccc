@@ -25,7 +25,7 @@ https://docs.docker.com/install/
 This docker image can be run with the following command.  You should mount a local path so that your notebooks can be saved outside the Docker container.
 
 ```
-docker run --rm -p 8888:8888 -v [local path]:/home/jovyan/work singlecell-ccc:latest
+docker run --rm -p 8888:8888 -v [local path]:/home/jovyan/work earmingol/singlecell-ccc:latest
 ```
 
 You will then access the notebook with this URL:
