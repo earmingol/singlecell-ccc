@@ -13,7 +13,8 @@ RUN apt-get update && \
     unixodbc-dev \
     r-cran-rodbc \
     gfortran \
-    gcc && \
+    gcc \
+    libhdf5-dev && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Fix for devtools https://github.com/conda-forge/r-devtools-feedstock/issues/4
