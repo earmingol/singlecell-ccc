@@ -46,6 +46,8 @@ RUN conda install --quiet --yes \
     'umap-learn' \
     'r-cairo' \
     'r-systemfonts' \
+    'r-magrittr' \
+    'r-dplyr' \
     && \
     conda clean --all -f -y && \
     fix-permissions "${CONDA_DIR}" && \
