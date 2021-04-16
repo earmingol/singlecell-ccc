@@ -48,6 +48,8 @@ RUN conda install --quiet --yes \
     'r-systemfonts' \
     'r-magrittr' \
     'r-dplyr' \
+    'r-seurat=4.0.1' \
+
     && \
     conda clean --all -f -y && \
     fix-permissions "${CONDA_DIR}" && \

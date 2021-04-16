@@ -1,5 +1,5 @@
 options(repos = c(CRAN = "http://cran.rstudio.com"))
-install.packages('Seurat')
+#install.packages('Seurat')
 Sys.setenv(R_REMOTES_NO_ERRORS_FROM_WARNINGS=TRUE)
 devtools::install_github("mojaveazure/seurat-disk")
 devtools::install_github("immunogenomics/harmony")
